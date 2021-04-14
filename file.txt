@@ -1,0 +1,10 @@
+MariaDB [chinook]> desc genre;
++---------+--------------+------+-----+---------+----------------+
+| Field   | Type         | Null | Key | Default | Extra          |
++---------+--------------+------+-----+---------+----------------+
+| GenreId | int(11)      | NO   | PRI | NULL    | auto_increment |
+| Name    | varchar(120) | YES  |     | NULL    |                |
++---------+--------------+------+-----+---------+----------------+
+2 rows in set (0.014 sec)
+
+MariaDB [chinook]> notee
